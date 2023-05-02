@@ -32,37 +32,13 @@ html {
     margin-bottom: 1em;
   }
   
-  .product-card h3 {
-    font-size: 1.2em;
-    margin-bottom: 0.5em;
-  }
-  
-  .product-card p {
-    font-size: 1em;
-    margin-bottom: 1em;
-  }
-  
-  .product-card a {
-    display: block;
-    padding: 0.5em 1em;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center;
-    font-weight: bold;
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .product-card a:hover {
-    background-color: #ccc;
-  }
   
   nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -76,15 +52,47 @@ html {
   
   nav li a {
     display: block;
-    color: white;
+    color: #000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif ;
   }
   
-.header{
+.main-image{
     height: 50%;
     max-width: 80%;
 }
 
+.second-img-size{
+    height: 10%;
+    max-width: 20%;
+}
 
+figure {
+    position: relative;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  header{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row;
+    
+  }
+
+  section > h1{
+    text-decoration: solid;
+  }
