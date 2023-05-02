@@ -10,3 +10,81 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
+
+.background{
+    background: #bf7631; ;
+}
+
+.product-card {
+    display: inline-block;
+    width: 300px;
+    margin: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1em;
+  }
+  
+  .product-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .product-card p {
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .product-card a {
+    display: block;
+    padding: 0.5em 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .product-card a:hover {
+    background-color: #ccc;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.header{
+    height: 50%;
+    max-width: 80%;
+}
+
+
