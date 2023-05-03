@@ -17,20 +17,22 @@ footer{
     justify-content: space-between;
     font-size: large;
     position: relative;
-    bottom: -11px;
+    bottom: -82px;
+    /* width: 872px; */
     
 }
 
 .img-shrink{
   position: relative;
     height: 55px;
-    bottom: -37px;
+    bottom: -16px;
 
 }
 
 .footer-logo-set{
   position: relative;
   bottom: -12px;
+  
 }
 
 
@@ -280,4 +282,11 @@ button{
   top: 18px;
 }
 
+
+.copyright{
+  position: relative;
+  font-size: small;
+  bottom: -81px;
+  right: -1180px;
+}
 
