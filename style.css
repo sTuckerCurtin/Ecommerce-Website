@@ -15,10 +15,23 @@ footer{
     background: #bf7631; 
     display: flex;
     justify-content: space-between;
-    font-size: medium;
+    font-size: large;
+    position: relative;
+    bottom: -11px;
     
 }
 
+.img-shrink{
+  position: relative;
+    height: 55px;
+    bottom: -37px;
+
+}
+
+.footer-logo-set{
+  position: relative;
+  bottom: -12px;
+}
 
 
 .product-card {
@@ -33,7 +46,7 @@ footer{
   
   .product-card img {
     width: 100%;
-    height: auto;
+    height: 300px;
     border-radius: 5px;
     margin-bottom: 1em;
   }
@@ -105,6 +118,8 @@ figure {
   .center-logo{
     position: relative;
     right: -60px;
+    font-size: 2.5em;
+
   }
   
   .search-placement{
@@ -244,4 +259,25 @@ button{
   footer {
     text-align: center;
   }
+
+ 
 }
+
+#message {
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+}
+
+#email{
+  height: 25px;
+  width: 100%;
+  padding: 10px;
+}
+
+.logo-set{
+  position: relative;
+  top: 18px;
+}
+
+
